@@ -1,0 +1,3 @@
+echo ".exe >> .gitignore
+echo "tempCodeRunnerFile.c" >> .gitignore
+echo "*.code-workspace" >> .gitignore
