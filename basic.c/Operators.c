@@ -8,4 +8,5 @@ int main () {
     scanf("%d",&x);
     printf("%d\n", x > 9 && x < 100);  // relational and logic.. operator;
     printf("%d\n", x % 2 == 0); // arithmetic and rela.. operator
+
 }

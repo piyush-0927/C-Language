@@ -12,4 +12,7 @@ int main () {
     } else {
         printf("adult\n");
     }
+
+    // ternary operators
+    age >= 18 ? printf("adult\n") : printf("not adult");
 }
