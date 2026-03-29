@@ -4,7 +4,12 @@ int main () {
     int age;
     printf("enter number : ");
     scanf("%d",&age);
-
-    // ternary operator only use single statement;
-   age >= 18 ? printf("adult\n") : printf("not adult\n");
+// use if else , if,if,if , else if, else if, else 
+    if(age < 13) {
+        printf("child\n")
+    } else if(age >= 13 && age < 18) {
+        printf("Teenager\n");
+    } else {
+        printf("adult\n");
+    }
 }
