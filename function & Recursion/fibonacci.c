@@ -4,7 +4,8 @@ int fib(int n);
 int main () {
     // fib is sum of before two no. and fib start from 0;
     printf("fib is : %d\n",fib(6)); 
- 
+
+  return 0;
 }
 
 
